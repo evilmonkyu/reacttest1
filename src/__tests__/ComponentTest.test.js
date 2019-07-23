@@ -7,7 +7,7 @@ describe("A test component", () => {
     let component = shallow(<ComponentTest />);
   });
 
-  for (var i = 2; i <= 40; i++) {
+  for (var i = 2; i <= 800; i++) {
     it("Renders just fine " + i, () => {
       let component = shallow(<ComponentTest val={i} />);
       expect(component.find("div").text()).toBe("" + i);
