@@ -2,7 +2,7 @@ import React from "react";
 import { shallow, mount } from "enzyme";
 import ComponentTest from "../components/ComponentTest";
 
-describe("A test component", () => {
+describe("A test 6 component", () => {
   it("Renders just fine", () => {
     let component = mount(<ComponentTest />);
   });
